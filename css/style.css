@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Nunito|Sacramento&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Cuprum', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+}
+
+body {
+    /* font-size: 18px; */
+    font-size: 1.25rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    /* color: #fff; */
+}
+
+.center img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.left .nom {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    /* font-style: italic; */
+    font-weight: 700;
+    color: #472ce1;
+}
+
+.left .titre {
+    font-style: italic;
+}
+
+.right a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+main {
+    /* background-color: aquamarine; */
+    margin: 20px;
+}
+
+main h2 {
+    margin: 20px;
+    background-color: #e1b12c;
+    /* text-transform: uppercase; */
+    padding: 10px;
+    text-align: center;
+    color: #472ce1;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    /* font-style: italic; */
+    font-weight: 700;
+}
+
+.exp1 {
+    margin: 20px;
+}
+
+.exp1 .an {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.85rem;
+    color: #e606e6;
+    font-weight: bold;
+    list-style: none;
+}
+
+.exp1 .poste {
+    color: #472ce1;
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* font-style: oblique; */
+}
+
+hr {
+    border: 2px solid #2ce12c;
+    margin: 20px auto;
+    width: 5%;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+}
+
+.formcomp {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.formcomp h2 {
+    margin: 20px;
+    background-color: #fff;
+    /* text-transform: uppercase; */
+    padding: 10px;
+    text-align: center;
+    color: #472ce1;
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    /* font-style: italic; */
+    font-weight: 700;
+}
+
+.formation {
+    /* background-color: aqua; */
+    flex: 1;
+}
+
+.competences {
+    /* background-color: rgb(225, 0, 255); */
+    /* padding: 20px; */
+    flex: 1;
+    margin: 20px 20px;
+}
+
+.toto {
+    /* font-family: 'Cuprum', sans-serif; */
+    font-size: 1.3rem;
+    color: #0a0a0a;
+    font-weight: 300;
+    list-style: none;
+}
+
+footer {
+    /* background-color: #8afff5; */
+    margin: 20px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
